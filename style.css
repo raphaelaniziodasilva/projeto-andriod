@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inconsolata:wght@900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgba(128, 128, 128, 0.486);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to bottom, #179954, #11553d);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+header p {
+    text-align: center;
+    max-width: 480px;
+    min-width: none;
+    margin: auto;
+}
+nav {
+    background-color: #11553d;
+    padding: 10px;
+}
+nav a {
+    color: #26cc58c4;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: .5s;
+
+}
+nav a:hover {
+    background-color: #0a36278c;
+    padding: 5px;
+}
+main {
+    max-width: 1000px;
+    min-width: 350px;
+    background-color: white;
+    margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+article {
+    padding: 15px;
+}
+article h1 {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.5em;
+    margin: 15px 0px;
+}
+article p {
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.8em;
+    font-size: 1.em;
+    margin: 15px 0px;
+}
+article a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(208, 226, 43);
+}
+article h2 {
+    font-family: 'Cookie', cursive;   
+    font-size: 2.5em; 
+    margin: 15px 0px;
+    background-image: linear-gradient(to right, #179954, transparent);
+}
+footer {
+    background-color: #179954;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 4px;
+}
+aside {
+    background-color: #23c970ef;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+}
+aside ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0';
+}
+aside h3 {
+    background-color: #11553d;
+    color: white;
+    padding: 10px;
+    margin: -10px -12px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+article img {
+    width: 100%;
+}
+article .pequeno {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+article .irina {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+article .video{
+    background-color: #0e3d2dcb;
+    margin: 0px -14px 30px -14px;
+    padding-bottom: 58%;
+    position: relative;
+    padding: 52px;
+    height: 250px;
+}
+.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
